@@ -48,5 +48,8 @@ Horizon's mod API does not yet expose what a minimap needs to render:
 5. **Status-effect gating**: the server-side `xaerominimap:no_minimap`-family
    effects and server-enforced configs need server-side support.
 
-Each item gets an issue or PR on the Horizon repo until patched, per the
-standing port policy.
+These surfaces are already tracked on the Horizon repo: world snapshots
+(chunks, biomes, tints) in #10152, local player/session state for HUD mods in
+#10151, and entity types in #10150; the launcher-side official Minimap offer is
+#10121. A consumer comment rides #10152. Each item stays tracked until Horizon
+patches it, per the standing port policy.
